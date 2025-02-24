@@ -1,5 +1,5 @@
 import { AppState } from "../AppState.js";
-import { Example } from "../models/Example.js";
+import { Example } from "../models/Player.js";
 
 class ExamplesService {
   addMessage(message) {

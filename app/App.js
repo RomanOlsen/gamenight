@@ -1,8 +1,8 @@
-import { ExampleController } from './controllers/ExampleController.js';
+import { playersController } from './controllers/Controller.js';
 
 class App {
 
-  ExampleController = new ExampleController() // ☑️ you can remove this - example only
+  playersController = new playersController() // ☑️ you can remove this - example only
 
 }
 
