@@ -1,11 +1,11 @@
 import { AppState } from "../AppState.js";
-import { Example } from "../models/Player.js";
+import { Player } from "../models/Player.js";
 
-class ExamplesService {
+class PlayersService {
   addMessage(message) {
     const example = new Example(message)
     AppState.examples.push(example)
   }
 }
 
-export const examplesService = new ExamplesService()
+export const playerService = new Player()

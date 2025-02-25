@@ -1,4 +1,3 @@
-import { playersController } from './controllers/Controller.js';
 
 class App {
 
